@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Meme - Meme Site</title>
+    <link rel="stylesheet" href="general.css">
+    <script src="gen.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Submit Meme</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="popular.html">Popular Memes</a></li>
+                <li><a href="latest.html">Latest Memes</a></li>
+                <li><a href="submit.html">Submit Meme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Submit Your Meme</h2>
+        <form id="submitForm">
+            <label for="memeImage">Meme Image URL:</label>
+            <input type="text" id="memeImage" name="memeImage" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="submissionMessage"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meme Site</p>
+    </footer>
+</body>
+</html>
